@@ -1,0 +1,185 @@
+- generic [ref=f1e5]:
+  - generic:
+    - navigation [ref=f1e6]:
+      - link [ref=f1e8] [cursor=pointer]:
+        - /url: "#"
+        - img "CredCorp - For Employers & Staffing Agencies" [ref=f1e9]
+      - text: 
+      - list [ref=f1e10]:
+        - listitem [ref=f1e11]:
+          - img "Toggler" [ref=f1e13] [cursor=pointer]
+      - list [ref=f1e15]:
+        - listitem [ref=f1e16]:
+          - generic [ref=f1e17] [cursor=pointer]
+        - listitem [ref=f1e19]:
+          - generic [ref=f1e20] [cursor=pointer]
+        - listitem [ref=f1e22]:
+          - generic [ref=f1e23] [cursor=pointer]: "214"
+        - listitem [ref=f1e26]:
+          - generic [ref=f1e27] [cursor=pointer]
+    - text:    
+  - main [ref=f1e29]:
+    - complementary [ref=f1e30]:
+      - navigation [ref=f1e31]:
+        - list [ref=f1e32]:
+          - listitem [ref=f1e33] [cursor=pointer]:
+            - link "Dashboard Dashboard" [ref=f1e34]:
+              - /url: "#/client/dashboard"
+              - img "Dashboard" [ref=f1e35]
+              - generic [ref=f1e36]: Dashboard
+          - listitem [ref=f1e37] [cursor=pointer]:
+            - link "Agency Management Agency Management" [ref=f1e38]:
+              - /url: "#"
+              - img "Agency Management" [ref=f1e39]
+              - generic [ref=f1e40]: Agency Management
+          - listitem [ref=f1e42] [cursor=pointer]:
+            - link "Case Management Case Management" [ref=f1e43]:
+              - /url: "#/client/case-management"
+              - img "Case Management" [ref=f1e44]
+              - generic [ref=f1e45]: Case Management
+          - listitem [ref=f1e46] [cursor=pointer]:
+            - link "Subscription Subscription" [ref=f1e47]:
+              - /url: "#/client/subscription/plan-overview"
+              - img "Subscription" [ref=f1e48]
+              - generic [ref=f1e49]: Subscription
+          - listitem [ref=f1e50] [cursor=pointer]:
+            - link "Reports & Analytics Reports & Analytics" [ref=f1e51]:
+              - /url: "#"
+              - img "Reports & Analytics" [ref=f1e52]
+              - generic [ref=f1e53]: Reports & Analytics
+          - listitem [ref=f1e55] [cursor=pointer]:
+            - link "Admin Panel Admin Panel" [ref=f1e56]:
+              - /url: "#"
+              - img "Admin Panel" [ref=f1e57]
+              - generic [ref=f1e58]: Admin Panel
+        - generic [ref=f1e60]:
+          - generic [ref=f1e61]: V 0.00.00
+          - link "Powered by Business Partner" [ref=f1e63] [cursor=pointer]:
+            - /url: "#"
+    - generic [ref=f1e70]:
+      - generic [ref=f1e72]:
+        - generic [ref=f1e76] [cursor=pointer]:
+          - paragraph [ref=f1e77]: Users
+          - heading "of used" [level=4] [ref=f1e78]
+        - generic [ref=f1e82] [cursor=pointer]:
+          - paragraph [ref=f1e83]: Agencies
+          - heading "of used" [level=4] [ref=f1e84]
+        - generic [ref=f1e88] [cursor=pointer]:
+          - paragraph [ref=f1e89]: Cases
+          - heading "of used" [level=4] [ref=f1e90]
+        - generic [ref=f1e94]:
+          - paragraph [ref=f1e95]: Subscription Plan
+          - heading "Upgrade" [level=4] [ref=f1e96] [cursor=pointer]
+        - generic [ref=f1e101]:
+          - paragraph [ref=f1e102]: Plan Valid Till
+          - heading "Renew" [level=4] [ref=f1e103]
+      - generic [ref=f1e104]:
+        - generic [ref=f1e105]:
+          - button [ref=f1e107] [cursor=pointer]
+          - generic [ref=f1e110]:
+            - heading "Status Overview - Open Cases" [level=4] [ref=f1e112]
+            - alert [ref=f1e120]
+        - generic [ref=f1e121]:
+          - button [ref=f1e123] [cursor=pointer]
+          - generic [ref=f1e126]:
+            - heading "Status Overview - Closed Cases" [level=4] [ref=f1e128]
+            - alert [ref=f1e136]
+        - generic [ref=f1e137]:
+          - button [ref=f1e139] [cursor=pointer]
+          - generic [ref=f1e142]:
+            - heading "Status Overview - Checks with Insufficiency" [level=4] [ref=f1e144]
+            - alert [ref=f1e152]
+      - generic [ref=f1e155]:
+        - heading "Reimbursement Raised Requests" [level=4] [ref=f1e157]
+        - table [ref=f1e160]:
+          - rowgroup [ref=f1e161]:
+            - row [ref=f1e162]:
+              - columnheader "Case Reference Number (CRN)" [ref=f1e163]:
+                - text: Case Reference Number (CRN)
+                - img [ref=f1e165] [cursor=pointer]
+              - columnheader "Candidate Name" [ref=f1e166]:
+                - text: Candidate Name
+                - img [ref=f1e168] [cursor=pointer]
+              - columnheader "Type of Check" [ref=f1e169]:
+                - text: Type of Check
+                - img [ref=f1e171] [cursor=pointer]
+              - columnheader "Check ID" [ref=f1e172]:
+                - text: Check ID
+                - img [ref=f1e174] [cursor=pointer]
+              - columnheader "Purpose" [ref=f1e175]:
+                - text: Purpose
+                - img [ref=f1e177] [cursor=pointer]
+              - columnheader "Amount" [ref=f1e178]
+              - columnheader "Comments" [ref=f1e179]
+              - columnheader "Raised on" [ref=f1e180]
+              - columnheader "Raised by" [ref=f1e181]:
+                - text: Raised by
+                - img [ref=f1e183] [cursor=pointer]
+      - generic [ref=f1e186]:
+        - heading "Checks with Recent Data Insufficiency" [level=4] [ref=f1e188]
+        - table [ref=f1e191]:
+          - rowgroup [ref=f1e192]:
+            - row [ref=f1e193]:
+              - columnheader "Case Reference Number (CRN)" [ref=f1e194]
+              - columnheader "Candidate Name" [ref=f1e195]
+              - columnheader "Type of Check" [ref=f1e196]
+              - columnheader "Check ID" [ref=f1e197]
+              - columnheader "Remark" [ref=f1e198]
+              - columnheader "Raised on" [ref=f1e199]
+              - columnheader "Raised by" [ref=f1e200]
+      - generic [ref=f1e201]:
+        - generic [ref=f1e202]:
+          - button [ref=f1e204] [cursor=pointer]
+          - generic [ref=f1e207]:
+            - heading "Open Cases Status by Location" [level=4] [ref=f1e209]
+            - generic [ref=f1e213]:
+              - alert [ref=f1e217]
+              - generic:
+                - button [aria-hidden]
+              - generic:
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+        - generic [ref=f1e218]:
+          - button [ref=f1e220] [cursor=pointer]
+          - generic [ref=f1e223]:
+            - heading "On-Time Completion Rate" [level=4] [ref=f1e225]
+            - generic [ref=f1e229]:
+              - alert [ref=f1e233]
+              - generic:
+                - button [aria-hidden]
+        - generic [ref=f1e234]:
+          - button [ref=f1e236] [cursor=pointer]
+          - generic [ref=f1e239]:
+            - heading "Agency-Wise Open Cases" [level=4] [ref=f1e241]
+            - generic [ref=f1e245]:
+              - alert [ref=f1e249]
+              - generic:
+                - button [aria-hidden]
+              - generic:
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+        - generic [ref=f1e250]:
+          - button [ref=f1e252] [cursor=pointer]
+          - generic [ref=f1e255]:
+            - heading "Agency-Wise Closed Cases" [level=4] [ref=f1e257]
+            - generic [ref=f1e261]:
+              - alert [ref=f1e265]
+              - generic:
+                - button [aria-hidden]
+              - generic:
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"

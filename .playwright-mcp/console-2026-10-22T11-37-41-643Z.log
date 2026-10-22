@@ -1,0 +1,10 @@
+[      22ms] [LOG] routes... /client/dashboard @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[      23ms] [LOG] authservice... /client/dashboard @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[      24ms] [LOG] side-bar false @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[      27ms] [LOG] dynamicMenuItems [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[     134ms] [LOG]  @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[     135ms] [LOG] customfile..  [Object] @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[     135ms] [LOG]  @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[     135ms] [LOG] customfile..  [Object, Object, Object, Object, Object, Object, Object] @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[     135ms] [LOG] [Object, Object, Object, Object, Object, Object, Object] @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[     135ms] [LOG] processmenu [Object, Object, Object, Object, Object, Object, Object] /client/dashboard @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0

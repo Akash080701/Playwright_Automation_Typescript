@@ -1,0 +1,47 @@
+[    1078ms] Unexpected token 'export'
+[   10151ms] [LOG] AuthInterceptor @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   10156ms] [LOG] deafultComp... TENANT_ADMIN @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   10197ms] [LOG] null @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   10200ms] [LOG] TENANT_ADMIN @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   10200ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   10201ms] [LOG] TENANT_ADMIN @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   10201ms] [LOG] {id: Tenant_User-32, accessToken: eyJhbGciOiJIUzUxMiJ9.eyJyb2xlTmFtZSI6IlRFTkFOVF9BR…QV08dJIGIZehe5MjcAnEHZhTtwSSSgX7f8V1tqkN7STG9Vv_Q, refreshToken: eyJhbGciOiJIUzUxMiJ9.eyJyb2xlTmFtZSI6IlRFTkFOVF9BR…d9oiFb8rYjW7yl57guAyZ74nHfwFiS9lixrmMZKOopM7jHaJg, username: akash.manda+1008@credentiai.com, userType: TENANT_ADMIN} @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   10235ms] [ERROR] Element with id stackchart-2 not found. @ https://dev.credentiai.co.in/credcorp/972.8ead534a5d61df7a.js:0
+[   10239ms] [ERROR] Element with id stackchart-1 not found. @ https://dev.credentiai.co.in/credcorp/972.8ead534a5d61df7a.js:0
+[   10262ms] [LOG] dynamicMenuItems [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   10264ms] [ERROR] ERROR Tt: NG05104
+    at Yt.selectRootElement (https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:1:2550226)
+    at Rd.selectRootElement (https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:1:686866)
+    at r.ngAfterViewInit (https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:1:594527)
+    at Tp (https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:1:2314854)
+    at Bb (https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:1:2315001)
+    at fu (https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:1:2314759)
+    at bu (https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:1:2314483)
+    at Bh (https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:1:2346024)
+    at kf (https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:1:2346585)
+    at Wf (https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:1:2346414) @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   10315ms] [LOG]  @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   10315ms] [LOG] customfile..  [Object] @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   10316ms] [LOG]  @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   10316ms] [LOG] customfile..  [Object, Object, Object, Object, Object, Object, Object] @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   10316ms] [LOG] [Object, Object, Object, Object, Object, Object, Object] @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   10317ms] [LOG] processmenu [Object, Object, Object, Object, Object, Object, Object]  @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   10657ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev.credentiai.co.in/credcorp-api/tenant/colorCode/getColorCode:0
+[   10693ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev.credentiai.co.in/credcorp-api/credentia/getWebAlertCount:0
+[   10781ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://dev.credentiai.co.in/credcorp-api/api/s3/signed-url:0
+[   10803ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev.credentiai.co.in/credcorp-api/tenantAgency/fetchTenantIdAndNames:0
+[   10837ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev.credentiai.co.in/credcorp-api/tenantDashboard/getClosedCaseBTAndWT:0
+[   10853ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev.credentiai.co.in/credcorp-api/credentia/getWebAlertCount:0
+[   10870ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev.credentiai.co.in/credcorp-api/tenantDashboard/getClosedCasesBreakdownByAgency:0
+[   10884ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev.credentiai.co.in/credcorp-api/tenantDashboard/getOpenCaseDistributionChartByAgency:0
+[   10904ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev.credentiai.co.in/credcorp-api/tenantDashboard/getOpenCaseDistributionChart:0
+[   10910ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev.credentiai.co.in/credcorp-api/tenantDashboard/getOpenCaseDistributionChartByLocation:0
+[   10915ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev.credentiai.co.in/credcorp-api/tenantDashboard/getClosedCaseBreakDownForColorCodeChart:0
+[   10940ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev.credentiai.co.in/credcorp-api/tenantDashboard/insufficiencyRaisedList:0
+[   10943ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev.credentiai.co.in/credcorp-api/tenantDashboard/getInsufficiencyChart:0
+[   10949ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev.credentiai.co.in/credcorp-api/candidate/case/getReimbursementRequests:0
+[   10954ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev.credentiai.co.in/credcorp-api/tenantSystemUsageStatistics/getSystemUsageStatistics:0
+[   10975ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev.credentiai.co.in/credcorp-api/tenant/colorCode/getColorCode:0
+[   11449ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://dev.credentiai.co.in/credcorp-api/api/s3/signed-url:0
+[   11450ms] [LOG] increment-token-count Ve 1 @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   11455ms] [ERROR] ERROR Ve @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0

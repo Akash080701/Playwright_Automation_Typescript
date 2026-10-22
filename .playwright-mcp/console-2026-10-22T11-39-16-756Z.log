@@ -1,0 +1,11 @@
+[      29ms] [LOG] routes... /client/dashboard @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[      30ms] [LOG] authservice... /client/dashboard @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[      31ms] [LOG] side-bar false @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[  997805ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://dev.credentiai.co.in/credcorp-api/credentia/getWebAlertCount:0
+[  997825ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://dev.credentiai.co.in/credcorp-api/credentia/getWebAlertCount:0
+[ 1016093ms] [LOG] increment-token-count Ve 1 @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[ 1016094ms] [ERROR] Polling error: Ve @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[ 1016097ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://dev.credentiai.co.in/credcorp-api/refreshToken:0
+[ 1016107ms] [LOG] increment-token-count Ve 2 @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[ 1016108ms] [ERROR] Polling error: Ve @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[ 1016116ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://dev.credentiai.co.in/credcorp-api/refreshToken:0

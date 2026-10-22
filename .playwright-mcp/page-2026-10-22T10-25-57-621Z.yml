@@ -1,0 +1,224 @@
+- generic [ref=f2e5]:
+  - generic:
+    - navigation [ref=f2e6]:
+      - link [ref=f2e8] [cursor=pointer]:
+        - /url: "#"
+        - img "CredCorp - For Employers & Staffing Agencies" [ref=f2e9]
+      - text: 
+      - list [ref=f2e10]:
+        - listitem [ref=f2e11]:
+          - img "Toggler" [ref=f2e13] [cursor=pointer]
+      - list [ref=f2e15]:
+        - listitem [ref=f2e16]:
+          - generic [ref=f2e17] [cursor=pointer]
+        - listitem [ref=f2e19]:
+          - generic [ref=f2e20] [cursor=pointer]
+        - listitem [ref=f2e22]:
+          - generic [ref=f2e23] [cursor=pointer]: "214"
+        - listitem [ref=f2e26]:
+          - generic [ref=f2e27] [cursor=pointer]
+    - text:    
+  - main [ref=f2e29]:
+    - complementary [ref=f2e30]:
+      - navigation [ref=f2e31]:
+        - list [ref=f2e32]:
+          - listitem [ref=f2e33] [cursor=pointer]:
+            - link "Dashboard Dashboard" [ref=f2e34]:
+              - /url: "#/client/dashboard"
+              - img "Dashboard" [ref=f2e35]
+              - generic [ref=f2e36]: Dashboard
+          - listitem [ref=f2e37] [cursor=pointer]:
+            - link "Agency Management Agency Management" [ref=f2e38]:
+              - /url: "#"
+              - img "Agency Management" [ref=f2e39]
+              - generic [ref=f2e40]: Agency Management
+          - listitem [ref=f2e42] [cursor=pointer]:
+            - link "Case Management Case Management" [ref=f2e43]:
+              - /url: "#/client/case-management"
+              - img "Case Management" [ref=f2e44]
+              - generic [ref=f2e45]: Case Management
+          - listitem [ref=f2e46] [cursor=pointer]:
+            - link "Subscription Subscription" [ref=f2e47]:
+              - /url: "#/client/subscription/plan-overview"
+              - img "Subscription" [ref=f2e48]
+              - generic [ref=f2e49]: Subscription
+          - listitem [ref=f2e50] [cursor=pointer]:
+            - link "Reports & Analytics Reports & Analytics" [ref=f2e51]:
+              - /url: "#"
+              - img "Reports & Analytics" [ref=f2e52]
+              - generic [ref=f2e53]: Reports & Analytics
+          - listitem [ref=f2e55] [cursor=pointer]:
+            - link "Admin Panel Admin Panel" [ref=f2e56]:
+              - /url: "#"
+              - img "Admin Panel" [ref=f2e57]
+              - generic [ref=f2e58]: Admin Panel
+        - generic [ref=f2e60]:
+          - generic [ref=f2e61]: V 0.00.00
+          - link "Powered by Business Partner" [ref=f2e63] [cursor=pointer]:
+            - /url: "#"
+    - generic [ref=f2e70]:
+      - generic [ref=f2e72]:
+        - generic [ref=f2e76] [cursor=pointer]:
+          - paragraph [ref=f2e77]: Users
+          - heading "of used" [level=4] [ref=f2e78]
+        - generic [ref=f2e82] [cursor=pointer]:
+          - paragraph [ref=f2e83]: Agencies
+          - heading "of used" [level=4] [ref=f2e84]
+        - generic [ref=f2e88] [cursor=pointer]:
+          - paragraph [ref=f2e89]: Cases
+          - heading "of used" [level=4] [ref=f2e90]
+        - generic [ref=f2e94]:
+          - paragraph [ref=f2e95]: Subscription Plan
+          - heading "Upgrade" [level=4] [ref=f2e96] [cursor=pointer]
+        - generic [ref=f2e101]:
+          - paragraph [ref=f2e102]: Plan Valid Till
+          - heading "Renew" [level=4] [ref=f2e103]
+      - generic [ref=f2e104]:
+        - generic [ref=f2e105]:
+          - button [ref=f2e107] [cursor=pointer]
+          - generic [ref=f2e110]:
+            - heading "Status Overview - Open Cases" [level=4] [ref=f2e112]
+            - alert [ref=f2e119]
+        - generic [ref=f2e120]:
+          - button [ref=f2e122] [cursor=pointer]
+          - generic [ref=f2e125]:
+            - heading "Status Overview - Closed Cases" [level=4] [ref=f2e127]
+            - alert [ref=f2e134]
+        - generic [ref=f2e135]:
+          - button [ref=f2e137] [cursor=pointer]
+          - generic [ref=f2e140]:
+            - heading "Status Overview - Checks with Insufficiency" [level=4] [ref=f2e142]
+            - generic [ref=f2e143]: No Data Available
+      - generic [ref=f2e149]:
+        - heading "Reimbursement Raised Requests" [level=4] [ref=f2e151]
+        - generic [ref=f2e152]:
+          - table [ref=f2e154]:
+            - rowgroup [ref=f2e155]:
+              - row [ref=f2e156]:
+                - columnheader "Case Reference Number (CRN)" [ref=f2e157]:
+                  - text: Case Reference Number (CRN)
+                  - img [ref=f2e159] [cursor=pointer]
+                - columnheader "Candidate Name" [ref=f2e160]:
+                  - text: Candidate Name
+                  - img [ref=f2e162] [cursor=pointer]
+                - columnheader "Type of Check" [ref=f2e163]:
+                  - text: Type of Check
+                  - img [ref=f2e165] [cursor=pointer]
+                - columnheader "Check ID" [ref=f2e166]:
+                  - text: Check ID
+                  - img [ref=f2e168] [cursor=pointer]
+                - columnheader "Purpose" [ref=f2e169]:
+                  - text: Purpose
+                  - img [ref=f2e171] [cursor=pointer]
+                - columnheader "Amount" [ref=f2e172]
+                - columnheader "Comments" [ref=f2e173]
+                - columnheader "Raised on" [ref=f2e174]
+                - columnheader "Raised by" [ref=f2e175]:
+                  - text: Raised by
+                  - img [ref=f2e177] [cursor=pointer]
+            - rowgroup [ref=f2e178]:
+              - row [ref=f2e179]:
+                - cell "TATA-1032-0125" [ref=f2e180]
+                - cell "Akash Manda" [ref=f2e181]
+                - cell "Education" [ref=f2e182]
+                - cell "339" [ref=f2e183]
+                - cell "Need more money" [ref=f2e184]
+                - cell "5000" [ref=f2e185]
+                - cell "-" [ref=f2e186]
+                - cell "10/09/2026" [ref=f2e187]
+                - cell "Divyansh Singh" [ref=f2e188]
+              - row [ref=f2e189]:
+                - cell "TATA-1032-0123" [ref=f2e190]
+                - cell "keerthana S" [ref=f2e191]
+                - cell "Address" [ref=f2e192]
+                - cell "338" [ref=f2e193]
+                - cell "Need more money to verify" [ref=f2e194]
+                - cell "5000" [ref=f2e195]
+                - cell "-" [ref=f2e196]
+                - cell "10/09/2026" [ref=f2e197]
+                - cell "Divyansh Singh" [ref=f2e198]
+              - row [ref=f2e199]:
+                - cell "TATA-1032-0103" [ref=f2e200]
+                - cell "Maya jagdish" [ref=f2e201]
+                - cell "Education" [ref=f2e202]
+                - cell "258" [ref=f2e203]
+                - cell "test" [ref=f2e204]
+                - cell "500" [ref=f2e205]
+                - cell "-" [ref=f2e206]
+                - cell "08/09/2026" [ref=f2e207]
+                - cell "Divyansh Singh" [ref=f2e208]
+              - row [ref=f2e209]:
+                - cell "TATA-1032-0098" [ref=f2e210]
+                - cell "Avisek Nandy" [ref=f2e211]
+                - cell "Education" [ref=f2e212]
+                - cell "239" [ref=f2e213]
+                - cell "test" [ref=f2e214]
+                - cell "200" [ref=f2e215]
+                - cell "-" [ref=f2e216]
+                - cell "09/09/2026" [ref=f2e217]
+                - cell "Divyansh Singh" [ref=f2e218]
+              - row [ref=f2e219]:
+                - cell "TATA-1032-0021" [ref=f2e220]
+                - cell "Avisek Nandy" [ref=f2e221]
+                - cell "Employment" [ref=f2e222]
+                - cell "045" [ref=f2e223]
+                - cell "Test" [ref=f2e224]
+                - cell "200" [ref=f2e225]
+                - cell "-" [ref=f2e226]
+                - cell "21/08/2026" [ref=f2e227]
+                - cell "Divyansh Singh" [ref=f2e228]
+          - generic [ref=f2e231]:
+            - generic [ref=f2e232]:
+              - generic [ref=f2e233]: "Rows per page:"
+              - combobox [ref=f2e234]:
+                - option "5" [selected]
+                - option "10"
+                - option "20"
+                - option "30"
+                - option "40"
+                - option "50"
+                - option "60"
+                - option "70"
+                - option "80"
+                - option "90"
+                - option "100"
+            - list [ref=f2e235]:
+              - listitem [ref=f2e236]:
+                - generic [ref=f2e237]: 1 - 5 of 7
+              - listitem [ref=f2e238]
+              - listitem [ref=f2e239]:
+                - generic [ref=f2e240] [cursor=pointer]
+                - generic [ref=f2e243] [cursor=pointer]
+      - generic [ref=f2e248]:
+        - heading "Checks with Recent Data Insufficiency" [level=4] [ref=f2e250]
+        - table [ref=f2e253]:
+          - rowgroup [ref=f2e254]:
+            - row [ref=f2e255]:
+              - columnheader "Case Reference Number (CRN)" [ref=f2e256]
+              - columnheader "Candidate Name" [ref=f2e257]
+              - columnheader "Type of Check" [ref=f2e258]
+              - columnheader "Check ID" [ref=f2e259]
+              - columnheader "Remark" [ref=f2e260]
+              - columnheader "Raised on" [ref=f2e261]
+              - columnheader "Raised by" [ref=f2e262]
+      - generic [ref=f2e263]:
+        - generic [ref=f2e264]:
+          - button [ref=f2e266] [cursor=pointer]
+          - generic [ref=f2e269]:
+            - heading "Open Cases Status by Location" [level=4] [ref=f2e271]
+            - alert [ref=f2e278]
+        - generic [ref=f2e279]:
+          - button [ref=f2e281] [cursor=pointer]
+          - generic [ref=f2e284]:
+            - heading "On-Time Completion Rate" [level=4] [ref=f2e286]
+            - alert [ref=f2e293]
+        - generic [ref=f2e294]:
+          - button [ref=f2e296] [cursor=pointer]
+          - generic [ref=f2e299]:
+            - heading "Agency-Wise Open Cases" [level=4] [ref=f2e301]
+            - alert [ref=f2e308]
+        - generic [ref=f2e309]:
+          - button [ref=f2e311] [cursor=pointer]
+          - generic [ref=f2e314]:
+            - heading "Agency-Wise Closed Cases" [level=4] [ref=f2e316]
+            - alert [ref=f2e323]

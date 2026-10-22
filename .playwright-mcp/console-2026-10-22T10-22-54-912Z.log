@@ -1,0 +1,42 @@
+[  -10898ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://dev.credentiai.co.in/credcorp/#/authentication/login:0
+[   -7303ms] [LOG] AuthInterceptor @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -7106ms] [LOG] TENANT_ADMIN @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -7106ms] [LOG] customfile.. TENANT_ADMIN [Object, Object, Object, Object, Object, Object, Object] @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -7105ms] [LOG] [/client/dashboard, /client/agency-management/partnered-agencies, /client/agency-management/rate-cards, /client/agency-management/verification-packages, /client/agency-management/penalty-settings, /client/agency-management/agency-api-tokens, /client/case-management, /client/subscription/plan-overview, /client/reports-and-analytics/agency-performance-overview, /client/reports-and-analytics/agency-wise-billing-reports, /client/reports-and-analytics/components-wise-reports, /client/reports-and-analytics/custom-reports, /client/admin-panel/users-and-roles, /client/admin-panel/office-locations, /client/admin-panel/holidays, /client/admin-panel/verification-components, /client/admin-panel/status-codes-configuration, /client/admin-panel/projects-and-modules, /client/admin-panel/agency-auto-assignment-rules, /client/admin-panel/miscellaneous, /client/admin-panel/system-preferences, /client/admin-panel/hrms-apps, /client/manage-account, /client/dashboard, /client/agency-management/partnered-agencies, /client/agency-management/rate-cards, /client/agency-management/verification-packages, /client/agency-management/penalty-settings, /client/agency-management/agency-api-tokens, /client/case-management, /client/subscription/plan-overview, /client/reports-and-analytics/agency-performance-overview, /client/reports-and-analytics/agency-wise-billing-reports, /client/reports-and-analytics/components-wise-reports, /client/reports-and-analytics/custom-reports, /client/admin-panel/users-and-roles, /client/admin-panel/office-locations, /client/admin-panel/holidays, /client/admin-panel/verification-components, /client/admin-panel/status-codes-configuration, /client/admin-panel/projects-and-modules, /client/admin-panel/agency-auto-assignment-rules, /client/admin-panel/miscellaneous, /client/admin-panel/system-preferences, /client/admin-panel/hrms-apps, /client/manage-account, /client/candidate-case-reference, /client/candidate-assignment-list, /client/candidate-import-list, /client/candidate-auto-allocate, /client/candidate-profile-after-submitting-agency, /client/add-check, /client/update-package, /client/update-checkAll, /client/update-package-allcheck, /client/case-log, /client/case-summary/view-report, /client/add-insufficiency, /client/advanced-report, /client/checkwise-agency-report, /client/agency-comparison-report, /client/billing-summary, /client/subscription/plan-overview/buy-add-ons, /client/billing-successful, /client/renewal, /client/admin-panel/projects-and-modules, /client/admin-panel/agency-auto-assignment-rules, /client/admin-panel/hrms-apps, /client/case-management/add, /client/case-management/edit, /client/case-management/view, /client/case-management/import-cases] @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -7092ms] [LOG] deafultComp... TENANT_ADMIN @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -7077ms] [LOG] null @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -7076ms] [LOG] TENANT_ADMIN @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -7075ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -7075ms] [LOG] TENANT_ADMIN @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -7075ms] [LOG] {id: Tenant_User-32, accessToken: eyJhbGciOiJIUzUxMiJ9.eyJyb2xlTmFtZSI6IlRFTkFOVF9BR…QV08dJIGIZehe5MjcAnEHZhTtwSSSgX7f8V1tqkN7STG9Vv_Q, refreshToken: eyJhbGciOiJIUzUxMiJ9.eyJyb2xlTmFtZSI6IlRFTkFOVF9BR…d9oiFb8rYjW7yl57guAyZ74nHfwFiS9lixrmMZKOopM7jHaJg, username: akash.manda+1008@credentiai.com, userType: TENANT_ADMIN} @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -7059ms] [ERROR] Element with id stackchart-2 not found. @ https://dev.credentiai.co.in/credcorp/972.8ead534a5d61df7a.js:0
+[   -7058ms] [ERROR] Element with id stackchart-1 not found. @ https://dev.credentiai.co.in/credcorp/972.8ead534a5d61df7a.js:0
+[   -7049ms] [LOG] dynamicMenuItems [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -7039ms] [ERROR] ERROR Tt: NG05104
+    at Yt.selectRootElement (https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:1:2550226)
+    at Rd.selectRootElement (https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:1:686866)
+    at r.ngAfterViewInit (https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:1:594527)
+    at Tp (https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:1:2314854)
+    at Bb (https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:1:2315001)
+    at fu (https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:1:2314759)
+    at bu (https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:1:2314483)
+    at Bh (https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:1:2346024)
+    at kf (https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:1:2346585)
+    at Wf (https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:1:2346414) @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -6993ms] [LOG]  @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -6993ms] [LOG] customfile..  [Object] @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -6993ms] [LOG]  @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -6993ms] [LOG] customfile..  [Object, Object, Object, Object, Object, Object, Object] @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -6993ms] [LOG] [Object, Object, Object, Object, Object, Object, Object] @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -6992ms] [LOG] processmenu [Object, Object, Object, Object, Object, Object, Object]  @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -5871ms] [LOG] routes... /client/case-management @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -5871ms] [LOG] authservice... /client/case-management @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -5870ms] [LOG] side-bar false @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -5867ms] [LOG] dynamicMenuItems [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -5734ms] [LOG]  @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -5734ms] [LOG] customfile..  [Object] @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -5733ms] [LOG]  @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -5733ms] [LOG] customfile..  [Object, Object, Object, Object, Object, Object, Object] @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -5733ms] [LOG] [Object, Object, Object, Object, Object, Object, Object] @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[   -5733ms] [LOG] processmenu [Object, Object, Object, Object, Object, Object, Object] /client/case-management @ https://dev.credentiai.co.in/credcorp/main.a48bd79fff39204a.js:0
+[       4ms] Unexpected token 'export'

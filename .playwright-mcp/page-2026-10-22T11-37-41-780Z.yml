@@ -1,0 +1,309 @@
+- generic [ref=f3e6]:
+  - generic:
+    - navigation [ref=f3e7]:
+      - link [ref=f3e9] [cursor=pointer]:
+        - /url: "#"
+        - img "CredCorp - For Employers & Staffing Agencies" [ref=f3e10]
+      - text: 
+      - list [ref=f3e11]:
+        - listitem [ref=f3e12]:
+          - img "Toggler" [ref=f3e14] [cursor=pointer]
+      - list [ref=f3e16]:
+        - listitem [ref=f3e17]:
+          - generic [ref=f3e18] [cursor=pointer]
+        - listitem [ref=f3e20]:
+          - generic [ref=f3e21] [cursor=pointer]
+        - listitem [ref=f3e23]:
+          - generic [ref=f3e24] [cursor=pointer]: "214"
+        - listitem [ref=f3e27]:
+          - generic [ref=f3e28] [cursor=pointer]
+    - text:    
+  - main [ref=f3e30]:
+    - complementary [ref=f3e31]:
+      - navigation [ref=f3e32]:
+        - list [ref=f3e33]:
+          - listitem [ref=f3e34] [cursor=pointer]:
+            - link "Dashboard Dashboard" [ref=f3e35]:
+              - /url: "#/client/dashboard"
+              - img "Dashboard" [ref=f3e36]
+              - generic [ref=f3e37]: Dashboard
+          - listitem [ref=f3e38] [cursor=pointer]:
+            - link "Agency Management Agency Management" [ref=f3e39]:
+              - /url: "#"
+              - img "Agency Management" [ref=f3e40]
+              - generic [ref=f3e41]: Agency Management
+          - listitem [ref=f3e43] [cursor=pointer]:
+            - link "Case Management Case Management" [ref=f3e44]:
+              - /url: "#/client/case-management"
+              - img "Case Management" [ref=f3e45]
+              - generic [ref=f3e46]: Case Management
+          - listitem [ref=f3e47] [cursor=pointer]:
+            - link "Subscription Subscription" [ref=f3e48]:
+              - /url: "#/client/subscription/plan-overview"
+              - img "Subscription" [ref=f3e49]
+              - generic [ref=f3e50]: Subscription
+          - listitem [ref=f3e51] [cursor=pointer]:
+            - link "Reports & Analytics Reports & Analytics" [ref=f3e52]:
+              - /url: "#"
+              - img "Reports & Analytics" [ref=f3e53]
+              - generic [ref=f3e54]: Reports & Analytics
+          - listitem [ref=f3e56] [cursor=pointer]:
+            - link "Admin Panel Admin Panel" [ref=f3e57]:
+              - /url: "#"
+              - img "Admin Panel" [ref=f3e58]
+              - generic [ref=f3e59]: Admin Panel
+        - generic [ref=f3e61]:
+          - generic [ref=f3e62]: V 0.00.00
+          - link "Powered by Business Partner" [ref=f3e64] [cursor=pointer]:
+            - /url: "#"
+    - generic [ref=f3e71]:
+      - generic [ref=f3e73]:
+        - generic [ref=f3e77] [cursor=pointer]:
+          - paragraph [ref=f3e78]: Users
+          - heading "3 of 12 used" [level=4] [ref=f3e79]
+        - generic [ref=f3e83] [cursor=pointer]:
+          - paragraph [ref=f3e84]: Agencies
+          - heading "5 of 12 used" [level=4] [ref=f3e85]
+        - generic [ref=f3e89] [cursor=pointer]:
+          - paragraph [ref=f3e90]: Cases
+          - heading "182 of 560 used" [level=4] [ref=f3e91]
+        - generic [ref=f3e95]:
+          - paragraph [ref=f3e96]: Subscription Plan
+          - heading "SEA Upgrade" [level=4] [ref=f3e97] [cursor=pointer]:
+            - text: SEA
+            - generic [ref=f3e98]: Upgrade
+        - generic [ref=f3e102]:
+          - paragraph [ref=f3e103]: Plan Valid Till
+          - heading "18 Nov 2026 Renew" [level=4] [ref=f3e104]:
+            - text: 18 Nov 2026
+            - generic: Renew
+      - generic [ref=f3e105]:
+        - generic [ref=f3e106]:
+          - button [ref=f3e108] [cursor=pointer]
+          - generic [ref=f3e111]:
+            - heading "Status Overview - Open Cases" [level=4] [ref=f3e113]
+            - alert [ref=f3e121]
+        - generic [ref=f3e122]:
+          - button [ref=f3e124] [cursor=pointer]
+          - generic [ref=f3e127]:
+            - heading "Status Overview - Closed Cases" [level=4] [ref=f3e129]
+            - alert [ref=f3e137]
+        - generic [ref=f3e138]:
+          - button [ref=f3e140] [cursor=pointer]
+          - generic [ref=f3e143]:
+            - heading "Status Overview - Checks with Insufficiency" [level=4] [ref=f3e145]
+            - alert [ref=f3e153]
+      - generic [ref=f3e156]:
+        - heading "Reimbursement Raised Requests" [level=4] [ref=f3e158]
+        - generic [ref=f3e159]:
+          - table [ref=f3e161]:
+            - rowgroup [ref=f3e162]:
+              - row [ref=f3e163]:
+                - columnheader "Case Reference Number (CRN)" [ref=f3e164]:
+                  - text: Case Reference Number (CRN)
+                  - img [ref=f3e166] [cursor=pointer]
+                - columnheader "Candidate Name" [ref=f3e167]:
+                  - text: Candidate Name
+                  - img [ref=f3e169] [cursor=pointer]
+                - columnheader "Type of Check" [ref=f3e170]:
+                  - text: Type of Check
+                  - img [ref=f3e172] [cursor=pointer]
+                - columnheader "Check ID" [ref=f3e173]:
+                  - text: Check ID
+                  - img [ref=f3e175] [cursor=pointer]
+                - columnheader "Purpose" [ref=f3e176]:
+                  - text: Purpose
+                  - img [ref=f3e178] [cursor=pointer]
+                - columnheader "Amount" [ref=f3e179]
+                - columnheader "Comments" [ref=f3e180]
+                - columnheader "Raised on" [ref=f3e181]
+                - columnheader "Raised by" [ref=f3e182]:
+                  - text: Raised by
+                  - img [ref=f3e184] [cursor=pointer]
+            - rowgroup [ref=f3e185]:
+              - row [ref=f3e186]:
+                - cell "TATA-1032-0125" [ref=f3e187]
+                - cell "Akash Manda" [ref=f3e188]
+                - cell "Education" [ref=f3e189]
+                - cell "339" [ref=f3e190]
+                - cell "Need more money" [ref=f3e191]
+                - cell "5000" [ref=f3e192]
+                - cell "-" [ref=f3e193]
+                - cell "10/09/2026" [ref=f3e194]
+                - cell "Divyansh Singh" [ref=f3e195]
+              - row [ref=f3e196]:
+                - cell "TATA-1032-0123" [ref=f3e197]
+                - cell "keerthana S" [ref=f3e198]
+                - cell "Address" [ref=f3e199]
+                - cell "338" [ref=f3e200]
+                - cell "Need more money to verify" [ref=f3e201]
+                - cell "5000" [ref=f3e202]
+                - cell "-" [ref=f3e203]
+                - cell "10/09/2026" [ref=f3e204]
+                - cell "Divyansh Singh" [ref=f3e205]
+              - row [ref=f3e206]:
+                - cell "TATA-1032-0103" [ref=f3e207]
+                - cell "Maya jagdish" [ref=f3e208]
+                - cell "Education" [ref=f3e209]
+                - cell "258" [ref=f3e210]
+                - cell "test" [ref=f3e211]
+                - cell "500" [ref=f3e212]
+                - cell "-" [ref=f3e213]
+                - cell "08/09/2026" [ref=f3e214]
+                - cell "Divyansh Singh" [ref=f3e215]
+              - row [ref=f3e216]:
+                - cell "TATA-1032-0098" [ref=f3e217]
+                - cell "Avisek Nandy" [ref=f3e218]
+                - cell "Education" [ref=f3e219]
+                - cell "239" [ref=f3e220]
+                - cell "test" [ref=f3e221]
+                - cell "200" [ref=f3e222]
+                - cell "-" [ref=f3e223]
+                - cell "09/09/2026" [ref=f3e224]
+                - cell "Divyansh Singh" [ref=f3e225]
+              - row [ref=f3e226]:
+                - cell "TATA-1032-0021" [ref=f3e227]
+                - cell "Avisek Nandy" [ref=f3e228]
+                - cell "Employment" [ref=f3e229]
+                - cell "045" [ref=f3e230]
+                - cell "Test" [ref=f3e231]
+                - cell "200" [ref=f3e232]
+                - cell "-" [ref=f3e233]
+                - cell "21/08/2026" [ref=f3e234]
+                - cell "Divyansh Singh" [ref=f3e235]
+          - generic [ref=f3e238]:
+            - generic [ref=f3e239]:
+              - generic [ref=f3e240]: "Rows per page:"
+              - combobox [ref=f3e241]:
+                - option "5" [selected]
+                - option "10"
+                - option "20"
+                - option "30"
+                - option "40"
+                - option "50"
+                - option "60"
+                - option "70"
+                - option "80"
+                - option "90"
+                - option "100"
+            - list [ref=f3e242]:
+              - listitem [ref=f3e243]:
+                - generic [ref=f3e244]: 1 - 5 of 7
+              - listitem [ref=f3e245]
+              - listitem [ref=f3e246]:
+                - generic [ref=f3e247] [cursor=pointer]
+                - generic [ref=f3e250] [cursor=pointer]
+      - generic [ref=f3e255]:
+        - heading "Checks with Recent Data Insufficiency" [level=4] [ref=f3e257]
+        - generic [ref=f3e258]:
+          - table [ref=f3e260]:
+            - rowgroup [ref=f3e261]:
+              - row [ref=f3e262]:
+                - columnheader "Case Reference Number (CRN)" [ref=f3e263]
+                - columnheader "Candidate Name" [ref=f3e264]
+                - columnheader "Type of Check" [ref=f3e265]
+                - columnheader "Check ID" [ref=f3e266]
+                - columnheader "Remark" [ref=f3e267]
+                - columnheader "Raised on" [ref=f3e268]
+                - columnheader "Raised by" [ref=f3e269]
+            - rowgroup [ref=f3e270]:
+              - row [ref=f3e271]:
+                - cell "TATA-1032-0098" [ref=f3e272]
+                - cell "Avisek Nandy" [ref=f3e273]
+                - cell "Address" [ref=f3e274]
+                - cell "240" [ref=f3e275]
+                - cell "given address details are not enough. please give more details." [ref=f3e276]
+                - cell "10/09/2026" [ref=f3e277]
+                - cell "Divyansh Singh" [ref=f3e278]
+              - row [ref=f3e279]:
+                - cell "TATA-1032-0103" [ref=f3e280]
+                - cell "Maya jagdish" [ref=f3e281]
+                - cell "Address" [ref=f3e282]
+                - cell "259" [ref=f3e283]
+                - cell "test" [ref=f3e284]
+                - cell "08/09/2026" [ref=f3e285]
+                - cell "Divyansh Singh" [ref=f3e286]
+              - row [ref=f3e287]:
+                - cell "TATA-1032-0118" [ref=f3e288]
+                - cell "Akash Manda" [ref=f3e289]
+                - cell "PAN" [ref=f3e290]
+                - cell "319" [ref=f3e291]
+                - cell "efwef" [ref=f3e292]
+                - cell "10/09/2026" [ref=f3e293]
+                - cell "Divyansh Singh" [ref=f3e294]
+          - generic [ref=f3e297]:
+            - generic [ref=f3e298]:
+              - generic [ref=f3e299]: "Rows per page:"
+              - combobox [ref=f3e300]:
+                - option "5" [selected]
+                - option "10"
+                - option "20"
+                - option "30"
+                - option "40"
+                - option "50"
+                - option "60"
+                - option "70"
+                - option "80"
+                - option "90"
+                - option "100"
+            - list [ref=f3e301]:
+              - listitem [ref=f3e302]:
+                - generic [ref=f3e303]: 1 - 3 of 3
+              - listitem [ref=f3e304]
+              - listitem [ref=f3e305]
+      - generic [ref=f3e306]:
+        - generic [ref=f3e307]:
+          - button [ref=f3e309] [cursor=pointer]
+          - generic [ref=f3e312]:
+            - heading "Open Cases Status by Location" [level=4] [ref=f3e314]
+            - generic [ref=f3e318]:
+              - alert [ref=f3e322]
+              - generic:
+                - button [aria-hidden]
+              - generic:
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+        - generic [ref=f3e323]:
+          - button [ref=f3e325] [cursor=pointer]
+          - generic [ref=f3e328]:
+            - heading "On-Time Completion Rate" [level=4] [ref=f3e330]
+            - generic [ref=f3e334]:
+              - alert [ref=f3e338]
+              - generic:
+                - button [aria-hidden]
+        - generic [ref=f3e339]:
+          - button [ref=f3e341] [cursor=pointer]
+          - generic [ref=f3e344]:
+            - heading "Agency-Wise Open Cases" [level=4] [ref=f3e346]
+            - generic [ref=f3e350]:
+              - alert [ref=f3e354]
+              - generic:
+                - button [aria-hidden]
+              - generic:
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+        - generic [ref=f3e355]:
+          - button [ref=f3e357] [cursor=pointer]
+          - generic [ref=f3e360]:
+            - heading "Agency-Wise Closed Cases" [level=4] [ref=f3e362]
+            - generic [ref=f3e366]:
+              - alert [ref=f3e370]
+              - generic:
+                - button [aria-hidden]
+              - generic:
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"
+                - tooltip [aria-hidden]: ":"

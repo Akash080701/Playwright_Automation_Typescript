@@ -1,0 +1,30 @@
+- generic [ref=e8]:
+  - generic [ref=e11]:
+    - img "CredCorp" [ref=e13]
+    - heading "Login Sign in to continue to your dashboard." [level=5] [ref=e16]:
+      - text: Login
+      - generic [ref=e17]: Sign in to continue to your dashboard.
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e21]: Email ID
+          - textbox "Enter your registered email address." [ref=e23]
+        - generic [ref=e24]:
+          - generic [ref=e25]: Password
+          - generic [ref=e26]:
+            - textbox "Password" [ref=e27]:
+              - /placeholder: Enter your password.
+            - button [ref=e28] [cursor=pointer]: 
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - checkbox [ref=e31]
+            - generic [ref=e32]: Remember me
+          - generic [ref=e33]: Forgot Password?
+        - generic [ref=e34]:
+          - generic [ref=e35]: By continuing, you agree to the User Agreement and Privacy Policy
+          - button "Login" [ref=e37] [cursor=pointer]
+        - generic "Login with OTP" [ref=e39] [cursor=pointer]
+      - generic [ref=e40]:
+        - img "Credentia Verification Technologies Pvt. Ltd" [ref=e41]
+        - paragraph [ref=e42]: Credentia Verification Technologies Pvt. Ltd
+  - img "Background Verification" [ref=e45]

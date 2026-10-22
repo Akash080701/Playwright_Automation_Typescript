@@ -1,0 +1,424 @@
+- generic [ref=e50]:
+  - generic:
+    - navigation [ref=e51]:
+      - link [ref=e53] [cursor=pointer]:
+        - /url: "#"
+        - img "CredCorp - For Employers & Staffing Agencies" [ref=e269]
+      - text: 
+      - list [ref=e54]:
+        - listitem [ref=e270]:
+          - img "Toggler" [ref=e272] [cursor=pointer]
+      - list [ref=e56]:
+        - listitem [ref=e57]:
+          - generic [ref=e58] [cursor=pointer]
+        - listitem [ref=e59]:
+          - generic [ref=e60] [cursor=pointer]
+        - listitem [ref=e62]:
+          - generic [ref=e63] [cursor=pointer]
+        - listitem [ref=e65]:
+          - generic [ref=e66] [cursor=pointer]
+    - text:    
+  - main [ref=e67]:
+    - complementary [ref=e68]:
+      - navigation [ref=e69]:
+        - list [ref=e70]:
+          - listitem [ref=e71] [cursor=pointer]:
+            - link "Dashboard Dashboard" [ref=e72]:
+              - /url: "#/client/dashboard"
+              - img "Dashboard" [ref=e73]
+              - generic [ref=e74]: Dashboard
+          - listitem [ref=e75] [cursor=pointer]:
+            - link "Agency Management Agency Management" [ref=e76]:
+              - /url: "#"
+              - img "Agency Management" [ref=e77]
+              - generic [ref=e78]: Agency Management
+          - listitem [ref=e79] [cursor=pointer]:
+            - link "Case Management Case Management" [active] [ref=e80]:
+              - /url: "#/client/case-management"
+              - img "Case Management" [ref=e81]
+              - generic [ref=e82]: Case Management
+          - listitem [ref=e83] [cursor=pointer]:
+            - link "Subscription Subscription" [ref=e84]:
+              - /url: "#/client/subscription/plan-overview"
+              - img "Subscription" [ref=e85]
+              - generic [ref=e86]: Subscription
+          - listitem [ref=e87] [cursor=pointer]:
+            - link "Reports & Analytics Reports & Analytics" [ref=e88]:
+              - /url: "#"
+              - img "Reports & Analytics" [ref=e89]
+              - generic [ref=e90]: Reports & Analytics
+          - listitem [ref=e91] [cursor=pointer]:
+            - link "Admin Panel Admin Panel" [ref=e92]:
+              - /url: "#"
+              - img "Admin Panel" [ref=e93]
+              - generic [ref=e94]: Admin Panel
+        - generic [ref=e95]:
+          - generic [ref=e96]: V 0.00.00
+          - link "Powered by Business Partner" [ref=e98] [cursor=pointer]:
+            - /url: "#"
+    - generic [ref=e419]:
+      - list [ref=e421]:
+        - listitem [ref=e422]:
+          - link "Case Management" [ref=e423] [cursor=pointer]:
+            - /url: "#/client/case-management"
+      - generic [ref=e424]:
+        - generic [ref=e427]:
+          - heading "Case Management" [level=4] [ref=e429]
+          - generic [ref=e431]:
+            - generic [ref=e432]:
+              - searchbox "Search here" [ref=e433]
+              - button "GO" [ref=e434] [cursor=pointer]
+              - img "Search here" [ref=e436] [cursor=pointer]
+            - list [ref=e437]:
+              - listitem [ref=e438]:
+                - generic "Refresh" [ref=e439] [cursor=pointer]
+              - listitem [ref=e441]:
+                - button "Filter" [ref=e442] [cursor=pointer]
+              - listitem [ref=e444]:
+                - button "Add New" [ref=e445] [cursor=pointer]
+              - listitem [ref=e446]:
+                - button "Actions" [ref=e449] [cursor=pointer]
+        - generic [ref=e456]:
+          - table [ref=e458]:
+            - rowgroup [ref=e459]:
+              - row [ref=e460]:
+                - columnheader [ref=e461]:
+                  - checkbox [ref=e462]
+                - columnheader "Case Reference Number (CRN)" [ref=e463]:
+                  - text: Case Reference Number (CRN)
+                  - img [ref=e465] [cursor=pointer]
+                - columnheader "First Name" [ref=e466]:
+                  - text: First Name
+                  - img [ref=e468] [cursor=pointer]
+                - columnheader "Last Name" [ref=e469]:
+                  - text: Last Name
+                  - img [ref=e471] [cursor=pointer]
+                - columnheader "Case Status-Code" [ref=e472]:
+                  - text: Case Status-Code
+                  - img [ref=e474] [cursor=pointer]
+                - columnheader "HRMS Reference Number" [ref=e475]:
+                  - text: HRMS Reference Number
+                  - img [ref=e477] [cursor=pointer]
+                - columnheader "Assigned User" [ref=e478]:
+                  - text: Assigned User
+                  - img [ref=e480] [cursor=pointer]
+                - columnheader "Case Created On" [ref=e481]:
+                  - text: Case Created On
+                  - img [ref=e483] [cursor=pointer]
+                - columnheader "Case Due On" [ref=e484]:
+                  - text: Case Due On
+                  - img [ref=e486] [cursor=pointer]
+                - columnheader "Case Closed On" [ref=e487]:
+                  - text: Case Closed On
+                  - img [ref=e489] [cursor=pointer]
+                - columnheader "TAT Status-Code (Case)" [ref=e490]:
+                  - text: TAT Status-Code (Case)
+                  - img [ref=e492] [cursor=pointer]
+                - columnheader "Allocated Department CS" [ref=e493]:
+                  - text: Allocated Department CS
+                  - img [ref=e495] [cursor=pointer]
+                - columnheader "Allocated Sub-Department CS" [ref=e496]:
+                  - text: Allocated Sub-Department CS
+                  - img [ref=e498] [cursor=pointer]
+                - columnheader "Allocated Process" [ref=e499]:
+                  - text: Allocated Process
+                  - img [ref=e501] [cursor=pointer]
+                - columnheader "Allocated Sub-Process" [ref=e502]:
+                  - text: Allocated Sub-Process
+                  - img [ref=e504] [cursor=pointer]
+                - columnheader "Actions" [ref=e505]
+            - rowgroup [ref=e506]:
+              - row [ref=e507]:
+                - cell [ref=e508]:
+                  - generic [ref=e509]:
+                    - checkbox [ref=e510] [cursor=pointer]
+                    - img [ref=e512] [cursor=pointer]
+                - cell "TATA-1032-0190" [ref=e513]
+                - cell "Rasmiranjan" [ref=e514]
+                - cell "Nayak" [ref=e515]
+                - cell [ref=e516]:
+                  - button "Initiated to Candidate" [ref=e517]
+                - cell "-" [ref=e518]
+                - cell "Akash TATA" [ref=e519]
+                - cell "22/10/2026" [ref=e520]
+                - cell "-" [ref=e521]
+                - cell "-" [ref=e522]
+                - cell "-" [ref=e523]
+                - cell "Candidate Verification" [ref=e524]
+                - cell "OCR Development" [ref=e525]
+                - cell "Candidate Uploader" [ref=e526]
+                - cell "OCR Uploader" [ref=e527]
+                - cell [ref=e528]:
+                  - list [ref=e529]:
+                    - listitem [ref=e530]:
+                      - img "Edit" [ref=e532] [cursor=pointer]
+                    - listitem [ref=e533]:
+                      - img "Delete" [ref=e535] [cursor=pointer]
+                    - listitem [ref=e536]:
+                      - button "" [ref=e538] [cursor=pointer]
+              - row [ref=e540]:
+                - cell [ref=e541]:
+                  - generic [ref=e542]:
+                    - checkbox [ref=e543] [cursor=pointer]
+                    - img [ref=e545] [cursor=pointer]
+                - cell "TATA-1032-0189" [ref=e546]
+                - cell "Rasmiranjan" [ref=e547]
+                - cell "Nayak" [ref=e548]
+                - cell [ref=e549]:
+                  - button "Initiated to Candidate" [ref=e550]
+                - cell "-" [ref=e551]
+                - cell "Akash TATA" [ref=e552]
+                - cell "22/10/2026" [ref=e553]
+                - cell "-" [ref=e554]
+                - cell "-" [ref=e555]
+                - cell "-" [ref=e556]
+                - cell "Candidate Verification" [ref=e557]
+                - cell "OCR Development" [ref=e558]
+                - cell "Candidate Uploader" [ref=e559]
+                - cell "OCR Uploader" [ref=e560]
+                - cell [ref=e561]:
+                  - list [ref=e562]:
+                    - listitem [ref=e563]:
+                      - img "Edit" [ref=e565] [cursor=pointer]
+                    - listitem [ref=e566]:
+                      - img "Delete" [ref=e568] [cursor=pointer]
+                    - listitem [ref=e569]:
+                      - button "" [ref=e571] [cursor=pointer]
+              - row [ref=e573]:
+                - cell [ref=e574]:
+                  - checkbox [ref=e575] [cursor=pointer]
+                - cell "TATA-1032-0188" [ref=e576]
+                - cell "Rasmiranjan" [ref=e577]
+                - cell "Nayak" [ref=e578]
+                - cell [ref=e579]:
+                  - button "Case Initiated" [ref=e580]
+                - cell "-" [ref=e581]
+                - cell "Akash TATA" [ref=e582]
+                - cell "22/10/2026" [ref=e583]
+                - cell "-" [ref=e584]
+                - cell "-" [ref=e585]
+                - cell "-" [ref=e586]
+                - cell "Candidate Verification" [ref=e587]
+                - cell "OCR Development" [ref=e588]
+                - cell "Candidate Uploader" [ref=e589]
+                - cell "OCR Uploader" [ref=e590]
+                - cell [ref=e591]:
+                  - list [ref=e592]:
+                    - listitem [ref=e593]:
+                      - img "Edit" [ref=e595] [cursor=pointer]
+                    - listitem [ref=e596]:
+                      - img "Delete" [ref=e598] [cursor=pointer]
+                    - listitem [ref=e599]:
+                      - button "" [ref=e601] [cursor=pointer]
+              - row [ref=e603]:
+                - cell [ref=e604]:
+                  - generic [ref=e605]:
+                    - checkbox [ref=e606] [cursor=pointer]
+                    - img [ref=e608] [cursor=pointer]
+                - cell "TATA-1032-0187" [ref=e609]
+                - cell "Rasmiranjan" [ref=e610]
+                - cell "Nayak" [ref=e611]
+                - cell [ref=e612]:
+                  - button "Initiated to Candidate" [ref=e613]
+                - cell "-" [ref=e614]
+                - cell "Akash TATA" [ref=e615]
+                - cell "21/10/2026" [ref=e616]
+                - cell "-" [ref=e617]
+                - cell "-" [ref=e618]
+                - cell "-" [ref=e619]
+                - cell "Candidate Verification" [ref=e620]
+                - cell "OCR Development" [ref=e621]
+                - cell "Candidate Uploader" [ref=e622]
+                - cell "OCR Uploader" [ref=e623]
+                - cell [ref=e624]:
+                  - list [ref=e625]:
+                    - listitem [ref=e626]:
+                      - img "Edit" [ref=e628] [cursor=pointer]
+                    - listitem [ref=e629]:
+                      - img "Delete" [ref=e631] [cursor=pointer]
+                    - listitem [ref=e632]:
+                      - button "" [ref=e634] [cursor=pointer]
+              - row [ref=e636]:
+                - cell [ref=e637]:
+                  - generic [ref=e638]:
+                    - checkbox [ref=e639] [cursor=pointer]
+                    - img [ref=e641] [cursor=pointer]
+                - cell "TATA-1032-0186" [ref=e642]
+                - cell "Dibya" [ref=e643]
+                - cell "Ranjan" [ref=e644]
+                - cell [ref=e645]:
+                  - button "Initiated to Candidate" [ref=e646]
+                - cell "-" [ref=e647]
+                - cell "Akash TATA" [ref=e648]
+                - cell "21/10/2026" [ref=e649]
+                - cell "-" [ref=e650]
+                - cell "-" [ref=e651]
+                - cell "-" [ref=e652]
+                - cell "Candidate Verification" [ref=e653]
+                - cell "OCR Development" [ref=e654]
+                - cell "Candidate Uploader" [ref=e655]
+                - cell "OCR Uploader" [ref=e656]
+                - cell [ref=e657]:
+                  - list [ref=e658]:
+                    - listitem [ref=e659]:
+                      - img "Edit" [ref=e661] [cursor=pointer]
+                    - listitem [ref=e662]:
+                      - img "Delete" [ref=e664] [cursor=pointer]
+                    - listitem [ref=e665]:
+                      - button "" [ref=e667] [cursor=pointer]
+              - row [ref=e669]:
+                - cell [ref=e670]:
+                  - generic [ref=e671]:
+                    - checkbox [ref=e672] [cursor=pointer]
+                    - img [ref=e674] [cursor=pointer]
+                - cell "TATA-1032-0185" [ref=e675]
+                - cell "Avisek" [ref=e676]
+                - cell "Nandy" [ref=e677]
+                - cell [ref=e678]:
+                  - button "Initiated to Candidate" [ref=e679]
+                - cell "-" [ref=e680]
+                - cell "Akash TATA" [ref=e681]
+                - cell "21/10/2026" [ref=e682]
+                - cell "-" [ref=e683]
+                - cell "-" [ref=e684]
+                - cell "-" [ref=e685]
+                - cell "Candidate Verification" [ref=e686]
+                - cell "OCR Development" [ref=e687]
+                - cell "Candidate Uploader" [ref=e688]
+                - cell "OCR Uploader" [ref=e689]
+                - cell [ref=e690]:
+                  - list [ref=e691]:
+                    - listitem [ref=e692]:
+                      - img "Edit" [ref=e694] [cursor=pointer]
+                    - listitem [ref=e695]:
+                      - img "Delete" [ref=e697] [cursor=pointer]
+                    - listitem [ref=e698]:
+                      - button "" [ref=e700] [cursor=pointer]
+              - row [ref=e702]:
+                - cell [ref=e703]:
+                  - generic [ref=e704]:
+                    - checkbox [ref=e705] [cursor=pointer]
+                    - img [ref=e707] [cursor=pointer]
+                - cell "TATA-1032-0184" [ref=e708]
+                - cell "Rasmiranjan" [ref=e709]
+                - cell "Nayak" [ref=e710]
+                - cell [ref=e711]:
+                  - button "Initiated to Candidate" [ref=e712]
+                - cell "-" [ref=e713]
+                - cell "Akash TATA" [ref=e714]
+                - cell "21/10/2026" [ref=e715]
+                - cell "-" [ref=e716]
+                - cell "-" [ref=e717]
+                - cell "-" [ref=e718]
+                - cell "Candidate Verification" [ref=e719]
+                - cell "OCR Development" [ref=e720]
+                - cell "Candidate Uploader" [ref=e721]
+                - cell "OCR Uploader" [ref=e722]
+                - cell [ref=e723]:
+                  - list [ref=e724]:
+                    - listitem [ref=e725]:
+                      - img "Edit" [ref=e727] [cursor=pointer]
+                    - listitem [ref=e728]:
+                      - img "Delete" [ref=e730] [cursor=pointer]
+                    - listitem [ref=e731]:
+                      - button "" [ref=e733] [cursor=pointer]
+              - row [ref=e735]:
+                - cell [ref=e736]:
+                  - checkbox [ref=e737] [cursor=pointer]
+                - cell "TATA-1032-0183" [ref=e738]
+                - cell "Rasmiranjan" [ref=e739]
+                - cell "Nayak" [ref=e740]
+                - cell [ref=e741]:
+                  - button "Case Initiated" [ref=e742]
+                - cell "-" [ref=e743]
+                - cell "Akash TATA" [ref=e744]
+                - cell "21/10/2026" [ref=e745]
+                - cell "-" [ref=e746]
+                - cell "-" [ref=e747]
+                - cell "-" [ref=e748]
+                - cell "Candidate Verification" [ref=e749]
+                - cell "OCR Development" [ref=e750]
+                - cell "Candidate Uploader" [ref=e751]
+                - cell "OCR Uploader" [ref=e752]
+                - cell [ref=e753]:
+                  - list [ref=e754]:
+                    - listitem [ref=e755]:
+                      - img "Edit" [ref=e757] [cursor=pointer]
+                    - listitem [ref=e758]:
+                      - img "Delete" [ref=e760] [cursor=pointer]
+                    - listitem [ref=e761]:
+                      - button "" [ref=e763] [cursor=pointer]
+              - row [ref=e765]:
+                - cell [ref=e766]:
+                  - checkbox [ref=e767] [cursor=pointer]
+                - cell "TATA-1032-0182" [ref=e768]
+                - cell "Rasmiranjan" [ref=e769]
+                - cell "Nayak" [ref=e770]
+                - cell [ref=e771]:
+                  - button "Case Initiated" [ref=e772]
+                - cell "-" [ref=e773]
+                - cell "Akash TATA" [ref=e774]
+                - cell "21/10/2026" [ref=e775]
+                - cell "-" [ref=e776]
+                - cell "-" [ref=e777]
+                - cell "-" [ref=e778]
+                - cell "Candidate Verification" [ref=e779]
+                - cell "OCR Development" [ref=e780]
+                - cell "Candidate Uploader" [ref=e781]
+                - cell "OCR Uploader" [ref=e782]
+                - cell [ref=e783]:
+                  - list [ref=e784]:
+                    - listitem [ref=e785]:
+                      - img "Edit" [ref=e787] [cursor=pointer]
+                    - listitem [ref=e788]:
+                      - img "Delete" [ref=e790] [cursor=pointer]
+                    - listitem [ref=e791]:
+                      - button "" [ref=e793] [cursor=pointer]
+              - row [ref=e795]:
+                - cell [ref=e796]:
+                  - checkbox [ref=e797] [cursor=pointer]
+                - cell "TATA-1032-0181" [ref=e798]
+                - cell "Rasmiranjan" [ref=e799]
+                - cell "Nayak" [ref=e800]
+                - cell [ref=e801]:
+                  - button "Case Initiated" [ref=e802]
+                - cell "-" [ref=e803]
+                - cell "Akash TATA" [ref=e804]
+                - cell "21/10/2026" [ref=e805]
+                - cell "-" [ref=e806]
+                - cell "-" [ref=e807]
+                - cell "-" [ref=e808]
+                - cell "Candidate Verification" [ref=e809]
+                - cell "OCR Development" [ref=e810]
+                - cell "Candidate Uploader" [ref=e811]
+                - cell "OCR Uploader" [ref=e812]
+                - cell [ref=e813]:
+                  - list [ref=e814]:
+                    - listitem [ref=e815]:
+                      - img "Edit" [ref=e817] [cursor=pointer]
+                    - listitem [ref=e818]:
+                      - img "Delete" [ref=e820] [cursor=pointer]
+                    - listitem [ref=e821]:
+                      - button "" [ref=e823] [cursor=pointer]
+          - generic [ref=e827]:
+            - generic [ref=e828]:
+              - generic [ref=e829]: "Rows per page:"
+              - combobox [ref=e830]:
+                - option "5"
+                - option "10" [selected]
+                - option "20"
+                - option "30"
+                - option "40"
+                - option "50"
+                - option "60"
+                - option "70"
+                - option "80"
+                - option "90"
+                - option "100"
+            - list [ref=e831]:
+              - listitem [ref=e832]:
+                - generic [ref=e833]: 1 - 10 of 176
+              - listitem [ref=e834]
+              - listitem [ref=e835]:
+                - generic [ref=e836] [cursor=pointer]
+                - generic [ref=e839] [cursor=pointer]
