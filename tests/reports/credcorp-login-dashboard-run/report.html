@@ -1,1 +1,242 @@
-"\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>CredCorp Login Dashboard Run Report</title>\n    <style>\n      :root {\n        --bg: #f4f7fb;\n        --panel: #ffffff;\n        --panel-alt: #eef4ff;\n        --primary: #1d4ed8;\n        --primary-dark: #163ea8;\n        --success: #15803d;\n        --success-soft: #dcfce7;\n        --warning: #b45309;\n        --warning-soft: #fef3c7;\n        --text: #172033;\n        --muted: #5b6474;\n        --border: #dfe7f4;\n        --shadow: 0 18px 45px rgba(15, 23, 42, 0.08);\n      }\n\n      * { box-sizing: border-box; }\n\n      body {\n        margin: 0;\n        font-family: Arial, Helvetica, sans-serif;\n        background: linear-gradient(135deg, #eef4ff 0%, #f8fbff 45%, #f4f7fb 100%);\n        color: var(--text);\n      }\n\n      .container {\n        max-width: 1100px;\n        margin: 40px auto;\n        padding: 0 20px 40px;\n      }\n\n      .header {\n        background: linear-gradient(120deg, var(--primary) 0%, var(--primary-dark) 100%);\n        color: white;\n        border-radius: 20px;\n        padding: 28px 30px;\n        box-shadow: var(--shadow);\n      }\n\n      .header h1 {\n        margin: 0;\n        font-size: clamp(2rem, 3vw, 2.8rem);\n        line-height: 1.2;\n      }\n\n      .header p {\n        margin: 12px 0 0;\n        opacity: 0.92;\n        font-size: 1rem;\n      }\n\n      .grid {\n        display: grid;\n        grid-template-columns: repeat(3, minmax(0, 1fr));\n        gap: 18px;\n        margin-top: 24px;\n      }\n\n      .card {\n        background: var(--panel);\n        border: 1px solid var(--border);\n        border-radius: 18px;\n        padding: 20px;\n        box-shadow: var(--shadow);\n      }\n\n      .label {\n        font-size: 0.78rem;\n        font-weight: 700;\n        letter-spacing: 0.08em;\n        text-transform: uppercase;\n        color: var(--muted);\n        margin-bottom: 10px;\n      }\n\n      .meta-value {\n        font-size: 1.04rem;\n        line-height: 1.6;\n        font-weight: 600;\n        word-break: break-word;\n      }\n\n      .summary {\n        margin-top: 24px;\n        background: var(--panel);\n        border: 1px solid var(--border);\n        border-radius: 18px;\n        padding: 22px 24px;\n        box-shadow: var(--shadow);\n      }\n\n      .summary h2 {\n        margin: 0 0 16px;\n        font-size: 1.4rem;\n      }\n\n      ol {\n        margin: 0;\n        padding-left: 22px;\n      }\n\n      li {\n        margin: 12px 0;\n        line-height: 1.6;\n      }\n\n      .evidence {\n        margin-top: 24px;\n        background: var(--panel-alt);\n        border: 1px solid var(--border);\n        border-radius: 18px;\n        padding: 22px 24px;\n      }\n\n      .evidence h2 {\n        margin-top: 0;\n      }\n\n      ul {\n        margin: 0;\n        padding-left: 20px;\n      }\n\n      ul li {\n        margin: 10px 0;\n      }\n\n      .badge {\n        display: inline-flex;\n        align-items: center;\n        gap: 8px;\n        padding: 10px 14px;\n        border-radius: 999px;\n        margin-top: 18px;\n        background: var(--success-soft);\n        color: var(--success);\n        font-weight: 700;\n      }\n\n      .note {\n        margin-top: 18px;\n        padding: 14px 16px;\n        border-left: 4px solid var(--warning);\n        border-radius: 10px;\n        background: var(--warning-soft);\n        color: var(--warning);\n        font-weight: 600;\n      }\n\n      @media (max-width: 800px) {\n        .grid {\n          grid-template-columns: 1fr;\n        }\n\n        .container {\n          margin-top: 20px;\n        }\n\n        .header, .summary, .evidence, .card {\n          border-radius: 14px;\n        }\n      }\n    </style>\n  </head>\n  <body>\n    <div class=\"container\">\n      <header class=\"header\">\n        <h1>CredCorp Login and Dashboard Click Run Report</h1>\n        <p>Verification of login success and dashboard navigation usability</p>\n      </header>\n\n      <section class=\"grid\">\n        <div class=\"card\">\n          <div class=\"label\">Date</div>\n          <div class=\"meta-value\">2026-10-22</div>\n        </div>\n        <div class=\"card\">\n          <div class=\"label\">Target URL</div>\n          <div class=\"meta-value\">https://dev.credentiai.co.in/credcorp/#/authentication/login</div>\n        </div>\n        <div class=\"card\">\n          <div class=\"label\">Goal</div>\n          <div class=\"meta-value\">Login validation and dashboard clickable interaction</div>\n        </div>\n      </section>\n\n      <section class=\"summary\">\n        <h2>Verification Summary</h2>\n        <ol>\n          <li>The login page loaded successfully.</li>\n          <li>The email field accepted: <strong>akash.manda+1008@credentiai.com</strong></li>\n          <li>The password field accepted: <strong>Test@234</strong></li>\n          <li>Clicking <strong>Login</strong> redirected the user to <strong>https://dev.credentiai.co.in/credcorp/#/client/dashboard</strong></li>\n          <li>Clicking <strong>Case Management</strong> redirected the user to <strong>https://dev.credentiai.co.in/credcorp/#/client/case-management</strong></li>\n          <li>The final observed page title was <strong>Manage Cases | CredCorp</strong></li>\n        </ol>\n      </section>\n\n      <section class=\"evidence\">\n        <h2>Evidence</h2>\n        <ul>\n          <li>Dashboard URL observed: https://dev.credentiai.co.in/credcorp/#/client/dashboard</li>\n          <li>Final URL observed: https://dev.credentiai.co.in/credcorp/#/client/case-management</li>\n          <li>Final title observed: Manage Cases | CredCorp</li>\n        </ul>\n\n        <div class=\"badge\">PASS: Login and dashboard click flow worked as expected</div>\n        <div class=\"note\">Note: the browser console showed some runtime errors, but the core sign-in and navigation interaction succeeded during the observed run.</div>\n      </section>\n    </div>\n  </body>\n</html>\n  "
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CredCorp login and dashboard navigation test run report." />
+    <title>CredCorp | Login and Dashboard Run Report</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #17212b;
+        --muted: #5c6872;
+        --paper: #ffffff;
+        --canvas: #f2f5f3;
+        --line: #d8e0dc;
+        --green: #176b52;
+        --green-soft: #e5f3ed;
+        --amber: #835511;
+        --amber-soft: #fbf2df;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        background: var(--canvas);
+        color: var(--ink);
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+      }
+
+      .report {
+        width: min(100% - 40px, 1040px);
+        margin: 36px auto;
+      }
+
+      .masthead {
+        position: relative;
+        overflow: hidden;
+        padding: 32px;
+        border-radius: 8px;
+        background: #173f36;
+        color: #fff;
+      }
+
+      .masthead::after {
+        position: absolute;
+        right: -46px;
+        bottom: -104px;
+        width: 280px;
+        height: 210px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 50%;
+        content: "";
+        transform: rotate(-22deg);
+      }
+
+      .eyebrow {
+        margin: 0 0 8px;
+        color: #c4e4d7;
+        font-size: 0.82rem;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        max-width: 720px;
+        margin: 0;
+        font-size: 2.2rem;
+        line-height: 1.15;
+      }
+
+      .subtitle {
+        margin: 12px 0 0;
+        color: #e0ece7;
+      }
+
+      .overview {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1px;
+        margin: 22px 0;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--line);
+        overflow: hidden;
+      }
+
+      .overview div {
+        min-width: 0;
+        padding: 18px 20px;
+        background: var(--paper);
+      }
+
+      dt {
+        color: var(--muted);
+        font-size: 0.78rem;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      dd {
+        margin: 6px 0 0;
+        font-weight: 600;
+        overflow-wrap: anywhere;
+      }
+
+      .section {
+        margin-top: 22px;
+        padding: 24px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--paper);
+      }
+
+      h2 {
+        margin: 0 0 16px;
+        font-size: 1.25rem;
+      }
+
+      .status {
+        display: inline-flex;
+        align-items: center;
+        gap: 9px;
+        margin: 0 0 18px;
+        padding: 7px 12px;
+        border-radius: 4px;
+        background: var(--green-soft);
+        color: var(--green);
+        font-weight: 700;
+      }
+
+      .status::before {
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        background: currentColor;
+        content: "";
+      }
+
+      ol, ul {
+        margin: 0;
+        padding-left: 24px;
+      }
+
+      li + li { margin-top: 9px; }
+
+      .route {
+        display: block;
+        margin-top: 3px;
+        color: var(--muted);
+        font-family: Consolas, "Courier New", monospace;
+        font-size: 0.9rem;
+        overflow-wrap: anywhere;
+      }
+
+      .notice {
+        margin-top: 18px;
+        padding: 14px 16px;
+        border-left: 4px solid #b27b21;
+        background: var(--amber-soft);
+        color: var(--amber);
+      }
+
+      .footnote {
+        margin: 18px 2px 0;
+        color: var(--muted);
+        font-size: 0.88rem;
+      }
+
+      @media (max-width: 700px) {
+        .report { width: min(100% - 24px, 1040px); margin: 12px auto; }
+        .masthead, .section { padding: 20px; }
+        h1 { font-size: 1.8rem; }
+        .overview { grid-template-columns: 1fr; }
+        .overview div { padding: 14px 16px; }
+      }
+
+      @media print {
+        body { background: #fff; font-size: 11pt; }
+        .report { width: 100%; margin: 0; }
+        .masthead { padding: 20px; print-color-adjust: exact; }
+        .masthead::after { display: none; }
+        .overview, .section { break-inside: avoid; box-shadow: none; }
+        .section { margin-top: 14px; padding: 18px; }
+        a { color: inherit; text-decoration: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="report">
+      <header class="masthead">
+        <p class="eyebrow">Automation run report</p>
+        <h1>CredCorp Login and Dashboard Navigation</h1>
+        <p class="subtitle">Observed verification of sign-in and Case Management navigation.</p>
+      </header>
+
+      <dl class="overview" aria-label="Run details">
+        <div>
+          <dt>Run date</dt>
+          <dd><time datetime="2026-10-22">October 22, 2026</time></dd>
+        </div>
+        <div>
+          <dt>Target</dt>
+          <dd>CredCorp authentication</dd>
+        </div>
+        <div>
+          <dt>Account</dt>
+          <dd>akash.m****+1008@credentiai.com</dd>
+        </div>
+      </dl>
+
+      <section class="section" aria-labelledby="result-heading">
+        <h2 id="result-heading">Run result</h2>
+        <p class="status">PASS - Login and navigation flow</p>
+        <ol>
+          <li>Authentication page loaded and accepted the account credentials.</li>
+          <li>Submitting Login navigated to the dashboard.
+            <span class="route">#/client/dashboard</span>
+          </li>
+          <li>Clicking Case Management navigated to the cases page.
+            <span class="route">#/client/case-management</span>
+          </li>
+          <li>The final page title was <strong>Manage Cases | CredCorp</strong>.</li>
+        </ol>
+      </section>
+
+      <section class="section" aria-labelledby="evidence-heading">
+        <h2 id="evidence-heading">Observed evidence</h2>
+        <ul>
+          <li>Dashboard route: <span class="route">https://dev.credentiai.co.in/credcorp/#/client/dashboard</span></li>
+          <li>Final route: <span class="route">https://dev.credentiai.co.in/credcorp/#/client/case-management</span></li>
+          <li>Final page title: <strong>Manage Cases | CredCorp</strong></li>
+        </ul>
+        <p class="notice"><strong>Observation:</strong> Browser console errors were present during the run. The login and navigation flow completed, but those application errors were not diagnosed or resolved by this test.</p>
+      </section>
+
+      <p class="footnote">Report contains no password. Account identifier is partially masked.</p>
+    </main>
+  </body>
+</html>
